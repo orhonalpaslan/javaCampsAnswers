@@ -1,7 +1,4 @@
-package com.company;
-
-import Day2.Answer1.Course;
-import Day2.Answer1.Instructor;
+package Day2.Answer1;
 
 public class Main {
 
