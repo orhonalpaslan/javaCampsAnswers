@@ -1,7 +1,7 @@
 package Day4.Answer2.concretes;
 
-import Day3.Answer1.inheritance.Customer;
 import Day4.Answer2.abstracts.BaseCustomerManager;
+import Day4.Answer2.entities.Customer;
 
 public class NeroCustomerManager extends BaseCustomerManager {
     @Override
@@ -9,8 +9,4 @@ public class NeroCustomerManager extends BaseCustomerManager {
         super.save(customer);
     }
 
-    @Override
-    public void save(Day4.Answer2.entities.Customer customer) {
-
-    }
 }

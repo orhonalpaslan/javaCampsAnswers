@@ -1,7 +1,5 @@
 package Day4.Answer2.entities;
 
-import javax.print.attribute.DateTimeSyntax;
-
 public class Customer {
     private int id;
     private String firstName;

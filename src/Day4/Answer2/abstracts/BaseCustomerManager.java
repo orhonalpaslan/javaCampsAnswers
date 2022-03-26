@@ -1,6 +1,7 @@
 package Day4.Answer2.abstracts;
 
-import Day3.Answer1.inheritance.Customer;
+
+import Day4.Answer2.entities.Customer;
 
 public abstract class BaseCustomerManager implements CustomerService{
     public void save(Customer customer){

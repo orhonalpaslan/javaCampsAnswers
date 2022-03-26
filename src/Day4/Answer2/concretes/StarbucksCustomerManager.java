@@ -1,8 +1,8 @@
 package Day4.Answer2.concretes;
 
-import Day3.Answer1.inheritance.Customer;
 import Day4.Answer2.abstracts.BaseCustomerManager;
 import Day4.Answer2.abstracts.CustomerCheckService;
+import Day4.Answer2.entities.Customer;
 
 public class StarbucksCustomerManager extends BaseCustomerManager {
     private CustomerCheckService customerCheckService;
