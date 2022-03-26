@@ -15,7 +15,6 @@ public class Main {
         Starbucks müşeterileri kaydederken, mutlaka mernis doğrulaması istiyor.
         Nero müşterileri kaydederken böyle bir şey
         istemiyor.
-        %%% Starbucks müşleriler için kahve alımında yıldız kazandırmak istiyor.%%%%
         */
         BaseCustomerManager baseCustomerManager = new NeroCustomerManager();
         baseCustomerManager.save(new Customer(1,"Orhon","Alpaslan","1994","6969929297894"));
