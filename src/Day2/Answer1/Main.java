@@ -2,11 +2,17 @@ package Day2.Answer1;
 
 public class Main {
 
+        /*
+        Özellik nesnesi olarak tanımladığımızı düşündüğünüz iki örnek veriniz.
+        Bunlara ait class, contructor yapılarını oluşturup diziye ekleyip listeleyiniz.
+        İş sınıfı olarak tanımladığımızı düşündüğünüz bir class oluşturunuz. En az iki metot yazınız.
+        */
+
     public static void main(String[] args) {
         Instructor instructor = new Instructor();
         instructor.setId(1);
-        instructor.setFirstName("Engin");
-        instructor.setLastName("Demiroğ");
+        instructor.setFirstName("Feti Can");
+        instructor.setLastName("Kirazcı");
         Instructor[] instructors = {instructor};
         Course course1 = new Course();
         course1.setId(1);
